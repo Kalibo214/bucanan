@@ -1,0 +1,192 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f096 !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+header {
+    background-color: #451211;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+h2 {
+    text-align: center;
+    color: white;
+}
+nav {
+    text-align: center;
+}
+p{
+    padding: 10px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #797979f5;
+    padding: 10px 20px;
+    display: block;
+}
+nav ul li a.active,
+nav ul li a:hover {
+    color: white;
+    position: relative;
+}
+nav ul li a.active::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+img {
+    width: 50px;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+    margin-top: 10px;
+}
+#line {
+    margin: 20px auto;
+    width: 40%;
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, #ffffff00, #797979f5, #ffffff00);
+}
+#title {
+    font-size: 32px;
+    color: #797979;
+    font-weight: 400;
+    text-align: center;
+}
+p {
+    text-align: center;
+    color: #767676;
+    font-size: 18px;
+    padding: 10px;
+}
+.room-container {
+    width: 80%;
+    margin: 0 auto;
+}
+.room {
+    margin-bottom: 30px;
+}
+.room img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.room:first-child img {
+    height: 500px;
+}
+.room-info {
+    padding: 20px;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+.room-info h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+.room-info a.btn {
+    background-color: transparent;
+    color: black;
+    border: 1px;
+    display: inline-block;
+    padding: 1;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    border-bottom: 2px solid black;
+    border-radius: 0;
+}
+.room-info a.btn:hover {
+    color: #007bff;
+}
+.modal-body img{
+    width: 80%;
+    height: auto;
+    padding-bottom: 20px;
+}
+#roomModal2 .modal-dialog {
+    max-width: 1200px;
+}
+#roomModal2 .modal-title {
+    font-size: 24px;
+    color: #451211;
+    margin-bottom: 10px;
+}
+#roomModal2 .line-divider {
+    margin: 20px auto;
+    width: 40%;
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, #ffffff00, #797979f5, #ffffff00);
+}
+#roomModal3 .modal-dialog {
+    max-width: 1200px;
+}
+#roomModal3 .modal-title {
+    font-size: 24px;
+    color: #451211;
+    margin-bottom: 10px;
+}
+#roomModal3 .line-divider {
+    margin: 20px auto;
+    width: 40%;
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, #ffffff00, #797979f5, #ffffff00);
+}
+footer {
+    background-color: #451211;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+}
+footer .nav-link {
+    color: rgba(255, 255, 255, 0.85);
+}
+footer .nav-link:hover {
+    color: #fff;
+}
+footer .nav-column {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    font-size: large;
+}
+.contact-item {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: baseline;
+}
+.contact-item span:first-child {
+    color: #c1bebef5;
+    min-width: 120px;
+    text-align: right;
+    margin-right: 10px;
+}
+.da{
+    color: #c1bebef5;
+}
+footer .nav-column a{
+    color: #c1bebef5;
+}
+.de{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    font-size: 25px;
+}
+
+
