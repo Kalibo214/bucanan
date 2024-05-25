@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="CSS/Contact.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="Javascript/Contacts.js"></script>
+</head>
+<body>
+    <header class="container-fluid mb-4">
+        <img src="Images/LL.jpg" class="img-fluid rounded-circle ">
+        <nav>
+            <ul class="nav justify-content-center">
+                <li class="nav-item"><a href="Home.html">HOME</a></li>
+                <li class="nav-item"><a href="Villas.html">VILLAS</a></li>
+                <li class="nav-item"><a href="Activities.html">ACTIVITIES</a></li>
+                <li class="nav-item"><a href="Gallery.html">GALLERY</a></li>
+                <li class="nav-item"><a href="About.html">ABOUT</a></li>
+                <li class="nav-item"><a href="Contacts.html" class="active">CONTACTS</a></li>
+            </ul>
+        </nav>
+    </header>
+    <img class="back" src="Images/back2.jpg">
+    <h1 id="title">Contact Us</h1>
+    <div id="line"></div>
+    <div class="container contact-section">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Bucanan Farm Villas Contact Details</h2>
+                <p>Address: #240 Brgy.Bucanan, Magalang, Pampanga</p>
+                <p>T: 0917-132-1053</p>
+                <p>Email: bucananvillas@gmail.com</p>
+                <p>Facebook: https://www.facebook.com/bucananfarmland</p>
+            </div>
+            <div class="col-md-6">
+                <h2>Map and Location</h2>
+                <div id="map-container"></div>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-12">
+                <h2>Contact Form</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="country">City of Residence</label>
+                        <input type="text" class="form-control" id="country" placeholder="Enter your City">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" rows="4" placeholder="Enter your message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary m-3 ">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5><strong>Bucanan Farm Villas</strong></h5>
+                    <div class="nav-column">
+                        <a class="nav-link" href="Home.html">Home</a>
+                        <a class="nav-link" href="Gallery.html">Gallery</a>
+                        <a class="nav-link" href="Villas.html">Villas</a>
+                        <a class="nav-link" href="About.html">About</a>
+                        <a class="nav-link" href="Activities.html">Activities</a>
+                        <a class="nav-link" href="Contacts.html">Contacts</a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h5><strong>Contact Details</strong></h5>
+                    <div class="contact-item">
+                        <span><strong>Resort Address:</strong></span> 
+                        <span>#240 Brgy.Bucanan, Magalang, Pampanga</span>
+                    </div>
+                    <div class="contact-item">
+                        <span><strong>T:</strong></span> 
+                        <span>0917-132-1053</span>
+                    </div>
+                    <div class="contact-item">
+                        <span><strong>Email:</strong></span> 
+                        <span>bucananvillas@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <span><strong>Follow:</strong></span>
+                        <span><a target="_blank" href="https://www.facebook.com/bucananfarmland" style="text-decoration: none; color: white;">https://www.facebook.com/bucananfarmland</a></span>
+                    </div>
+                </div>                
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col">
+                    &copy; 2024 Bucanan Farm Villas. All Rights Reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://maps.app.goo.gl/SjzDNXXW6k154Qm69"></script>
+</body>
+</html>
